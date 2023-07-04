@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* ================================== */
+nav {
+    background-color: rgba(0, 0, 0, 0.884);
+}
+nav a {
+    color: #fff !important;
+}
+header {
+    background-image: url(img/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 45vh;
+}
+.back {
+    background-color: #007bffa2;
+    height: 100%;
+}
+.fs {
+    font-size: 60px;
+}
+/* ======================= */
+
+section {
+    height: fit-content;
+    background-color: aliceblue;
+}
+.carousel button[type="button"] {
+    position: relative;
+    top: 50px;
+    height: 0.9rem;
+    width: 0.9rem;
+    background-color: transparent;
+    border-radius: 50%;
+    border: #0267d3 solid 1px;
+    
+}
+.carousel-indicators .active {
+    background-color:#0267d3 !important;
+}
+.but-1{
+    margin-left: 10px;
+}
+.but-2{
+
+}
+.but-3{
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+/* =============================== */
+.foot {
+    background-color: #066ddbf5;
+    padding: 25px 0 20px 0;
+  
+  
+    
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,691 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+:root {
+  --main-color: #fff;
+  --blue-color: #0078ff;
+  --blue-light: #cde1f8;
+}
+body,.transs {
+  background-color: whitesmoke;
+}
+/* ========================================== */
+header {
+  background-image: url(img/hero-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.home-back {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.493);
+}
+nav {
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.87);
+}
+.navbar a {
+  color: #fff !important;
+}
+.sm-icon {
+  color: #fff !important;
+}
+
+.dropdown-menu {
+  background-color: #fff !important;
+}
+.dropdown-menu a {
+  color: rgba(0, 0, 0, 0.76) !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* ===================================== */
+
+.iam {
+  position: relative;
+}
+.iam::after {
+  position: absolute;
+  content: "";
+  font-size: 2.5rem;
+  top: 3em;
+  left: 50%;
+  transform: translateX(-50%);
+
+  animation: move 15s infinite;
+  animation-timing-function: linear;
+}
+@media(max-width:1100px){
+  .iam {
+    font-size: 4rem !important;
+  }
+  .iam::after{
+    top: 4em;
+  }
+}
+@media(max-width:500px){
+  .iam {
+    font-size: 3.2rem !important;
+  }
+  .iam::after{
+    top: 4.3em;
+  }
+  
+}
+@media(max-width:330px){
+  .img-man{
+    width: 120px;
+  }
+  .skills{
+    padding: 0;
+    margin: -25px;
+  }
+  .carousel-caption{
+    margin-bottom: -50px;
+  }
+  
+}
+@keyframes move {
+  0% {
+    content: "D|";
+  }
+  1% {
+    content: "De|";
+  }
+  2% {
+    content: "Des|";
+  }
+  3% {
+    content: "Desi|";
+  }
+  4% {
+    content: "Desig|";
+  }
+  5% {
+    content: "Design|";
+  }
+  7% {
+    content: "Designe|";
+  }
+  8% {
+    content: "Designer|";
+  }
+  9% {
+    content: "Designer|";
+  }
+  10% {
+    content: "Designer|";
+  }
+  11% {
+    content: "Designer|";
+  }
+  12% {
+    content: "Designer|";
+  }
+  13% {
+    content: "Designe|";
+  }
+  14% {
+    content: "Design|";
+  }
+  15% {
+    content: "Desig|";
+  }
+  16% {
+    content: "Desi|";
+  }
+  17% {
+    content: "Des|";
+  }
+  18% {
+    content: "De|";
+  }
+  19% {
+    content: "D|";
+  }
+  20% {
+    content: "|";
+  }
+  23% {
+    content: "F|";
+  }
+  24% {
+    content: "Fr|";
+  }
+  25% {
+    content: "Fre|";
+  }
+  26% {
+    content: "Free|";
+  }
+  27% {
+    content: "Free|";
+  }
+  28% {
+    content: "Freel|";
+  }
+  29% {
+    content: "Freela|";
+  }
+  30% {
+    content: "Freelan|";
+  }
+  31% {
+    content: "Freelanc|";
+  }
+  32% {
+    content: "Freelance|";
+  }
+  33% {
+    content: "Freelancer|";
+  }
+  34% {
+    content: "Freelancer|";
+  }
+  35% {
+    content: "Freelancer|";
+  }
+  36% {
+    content: "Freelancer|";
+  }
+  37% {
+    content: "Freelancer|";
+  }
+  38% {
+    content: "Freelance|";
+  }
+  39% {
+    content: "Freelanc|";
+  }
+  40% {
+    content: "Freelan|";
+  }
+  41% {
+    content: "Freela|";
+  }
+  42% {
+    content: "Freel|";
+  }
+  43% {
+    content: "Free|";
+  }
+  44% {
+    content: "Fre|";
+  }
+  45% {
+    content: "Fr|";
+  }
+  46% {
+    content: "F|";
+  }
+  47% {
+    content: "|";
+  }
+  49% {
+    content: "P|";
+  }
+  50% {
+    content: "Ph|";
+  }
+  51% {
+    content: "Pho|";
+  }
+  52% {
+    content: "Phot|";
+  }
+  53% {
+    content: "Photo|";
+  }
+  54% {
+    content: "Photog|";
+  }
+  55% {
+    content: "Photogr|";
+  }
+  56% {
+    content: "Photogra|";
+  }
+  57% {
+    content: "Photograp|";
+  }
+  58% {
+    content: "Photograph|";
+  }
+  59% {
+    content: "Photographe|";
+  }
+  60% {
+    content: "Photographer|";
+  }
+  61% {
+    content: "Photographer|";
+  }
+  62% {
+    content: "Photographer|";
+  }
+  63% {
+    content: "Photographer|";
+  }
+  64% {
+    content: "Photographer|";
+  }
+  65% {
+    content: "Photographe|";
+  }
+  66% {
+    content: "Photograph|";
+  }
+  67% {
+    content: "Photograp|";
+  }
+  68% {
+    content: "Photogra|";
+  }
+  69% {
+    content: "Photogr|";
+  }
+  70% {
+    content: "Photog|";
+  }
+  71% {
+    content: "Photo|";
+  }
+  72% {
+    content: "Phot|";
+  }
+  73% {
+    content: "Pho|";
+  }
+  74% {
+    content: "Ph|";
+  }
+  75% {
+    content: "P|";
+  }
+  76% {
+    content: "|";
+  }
+  78% {
+    content: "D|";
+  }
+  79% {
+    content: "De|";
+  }
+  80% {
+    content: "Dev|";
+  }
+  81% {
+    content: "Deve|";
+  }
+  82% {
+    content: "Devel|";
+  }
+  83% {
+    content: "Develo|";
+  }
+  84% {
+    content: "Develop|";
+  }
+  85% {
+    content: "Develope|";
+  }
+  86% {
+    content: "Developer|";
+  }
+  87% {
+    content: "Developer|";
+  }
+  88% {
+    content: "Developer|";
+  }
+  89% {
+    content: "Developer|";
+  }
+  90% {
+    content: "Developer|";
+  }
+  91% {
+    content: "Develope|";
+  }
+  92% {
+    content: "Develop|";
+  }
+  93% {
+    content: "Develo|";
+  }
+  94% {
+    content: "Devel|";
+  }
+  95% {
+    content: "Deve|";
+  }
+  96% {
+    content: "Dev|";
+  }
+  97% {
+    content: "De|";
+  }
+  98% {
+    content: "D|";
+  }
+  99% {
+    content: "|";
+  }
+}
+
+/* ============================================ */
+/* section-1 */
+.home .h1 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.about-me h2::after {
+  content: "";
+  background-color: var(--blue-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 5px;
+  height: 4px;
+  width: 90px;
+}
+
+.skill .blue-light {
+  width: 90%;
+  height: 12px;
+  margin-bottom: 20px;
+  background-color: var(--blue-light);
+}
+
+.skill .blue {
+  height: 100%;
+  background-color: var(--blue-color);
+}
+
+.skill .blue-1 {
+  width: 85%;
+}
+
+.skill .blue-2 {
+  width: 75%;
+}
+
+.skill .blue-3 {
+  width: 50%;
+}
+
+.skill .blue-4 {
+  width: 90%;
+}
+
+/* =================================== */
+/* #SERVICES */
+
+.title::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--blue-color);
+}
+.SERVICES,.back-w {
+  background-color: whitesmoke;
+}
+
+#SERVICES .icon {
+  width: 5rem;
+  height: 5rem;
+  margin: auto;
+  margin-top: 20px !important;
+  border: #308df8 solid 10px;
+  padding: 55px;
+  transition: all 0.7s;
+}
+
+.card-1:hover .icon-1 {
+  color: #fff;
+  background-color: #0078ff;
+  border: #a3c8f3 solid 10px !important;
+}
+
+.card-title {
+  margin-bottom: 18px !important;
+}
+/* =========== */
+.plus {
+  width: 1rem;
+  height: 1rem;
+  border: #0078ff solid 3px;
+  border-radius: 50%;
+  padding: 18px;
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+/* ========================= */
+
+.icons-4 {
+  background-image: url(img/post-3.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: fit-content;
+  background-attachment: fixed;
+
+}
+
+.color-back {
+  background-color: #0077ffcb;
+}
+
+.border-icon {
+  width: 2rem;
+  height: 2rem;
+  padding: 40px !important;
+  border: 10px  solid white !important;
+}
+/* ================================ */
+
+/* PORTFOLIO */
+.transs{
+  cursor: pointer;
+  
+}
+.trans {
+  transition: all 1s;
+}
+.transss {
+  overflow: hidden;
+}
+.transs:hover .trans {
+  transform: scale(1.2);
+}
+.hi {
+  overflow: hidden;
+}
+
+ 
+
+/* ============================== */
+
+/* .info-cast */
+
+.info-cast {
+  background-image: url(img/overlay-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+}
+.color-back {
+  height: 100%;
+  width: 100%;
+  background-color: #308df8c0;
+}
+
+.carousel-indicators button[type="button"] {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+/* =====================
+ */
+
+.icon-but {
+  position: relative;
+}
+
+.but {
+  font-size: 12px;
+  position: absolute;
+  left: 50%;
+  top: -10%;
+  transform: translateX(-50%);
+}
+.hover {
+  transition: all 0.7s;
+}
+.hover:hover {
+  color: var(--blue-color);
+}
+
+/* ============================== */
+/* sand & get */
+
+.CONTACT {
+  background-image: url(img/overlay-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.back {
+  background-color: #0077ffc7;
+}
+.lain {
+  position: relative;
+}
+.lain::before {
+  content: "";
+  position: absolute;
+  margin-top: 5px;
+  width: 15%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background-color: var(--blue-color);
+}
+.but-but {
+  width: fit-content;
+  margin: auto;
+  padding: 10px 20px;
+  background-color: var(--blue-color);
+  transition: all 0.5s;
+  border: 3px solid var(--blue-color);
+}
+.but-but:hover {
+  background-color: #0082fc;
+  border: 3px solid #85bcfc;
+}
+.in {
+  outline: none;
+  min-height: 5 0px;
+  border: solid 1px rgba(0, 0, 0, 0.182);
+}
+.in:focus {
+  border: 2px solid #85bcfc;
+  border-radius: 4px;
+  box-shadow: 0 0 5px 0 var(--blue-color);
+}
+.icons .circlel-4 {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 5px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  border: var(--blue-color) solid 3px;
+  transition: all 0.5s;
+}
+.icons .circlel-4 a{
+  color: black;
+  transition: all 0.5s;
+
+
+}
+.icons .circlel-4:hover {
+  background-color: #0078ff;
+  color: #fff;
+  border: solid 3px #8fc1fa;
+}
+.icons .circlel-4:hover .hov{
+  color: var(--main-color);
+}
+.par-2 {
+  margin-top: 35px;
+}
+
+/* ======================= */
+footer {
+  background-color: #0f61be;
+  padding: 30px 0 20px 0;
+}
+
+/* =================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================== */
+::-webkit-scrollbar {
+  width: 1.1rem;
+}
+
+::-webkit-scrollbar-track {
+  border: 7px solid #232943;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+  /* border-radius: 1rem; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #5183d3, #2b74c7);
+  /* border-radius: 1rem; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(270deg, #4782c5, #2f72be, #276ca5);
+}
+
+/* for Firefox */
+html {
+  scrollbar-color: #9e4673 #3d4a59;
+}
